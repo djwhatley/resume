@@ -1,0 +1,172 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.1 (9/2/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[print]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\usepackage{fontspec}
+\usepackage{fontawesome}
+\newfontfamily{\FA}{FontAwesome}
+
+\begin{document}
+
+\header{daniel}{whatley}{software engineer} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+\href{mailto:danieljwhatley@gmail.com}{danieljwhatley@gmail.com}
+~
++1 (478) 319-2103
+~
+\textbf{Location}
+Atlanta, GA
+\section{programming}
+C\#, TypeScript, JavaScript
+Java, Python, C
+~
+{\FA \faGithub} \href{https://www.github.com/djwhatley}{github.com/djwhatley}
+\end{aside}
+
+
+%----------------------------------------------------------------------------------------
+%	OVERVIEW SECTION
+%----------------------------------------------------------------------------------------
+\section{profile}
+
+\begin{itemize}
+	\item \textbf{Five years experience} in full-stack development of web applications \& products
+	\item \textbf{Highly perceptive} individual who approaches problems from a holistic perspective
+	\item \textbf{Committed to quality work}, very conscious of and averse to technical debt
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{interests}
+
+\begin{itemize}
+\item Web API's and web infrastructure 
+\item Improving and optimizing team workflows
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{Jan '16--Now}
+{RapidFire Tools / Kaseya}
+{Atlanta, Georgia}
+{\emph{Software Developer}
+\smallbreak
+Leading role in developing a web portal to provide company's services online, \\
+including full port of legacy application to web. Services primarily consist of \\
+network monitoring and assessments for security and compliance.
+\smallbreak
+\begin{itemize}
+\item Angular / TypeScript web app
+\item C\# .NET back-end API
+\item MSSQL and MySQL databases
+\end{itemize}
+\smallbreak
+Also set up and maintained Jenkins build system to automate deployments to \\
+multiple servers and environments.
+\smallbreak }
+%------------------------------------------------
+\entry
+{Sep '14--Dec '15}
+{Sagepath, Inc.}
+{Atlanta, Georgia}
+{\emph{Software Developer}
+\smallbreak
+Developed websites and software applications for a variety of high-profile clients, \\including QTS Data Centers and the Coca-Cola Company.
+\smallbreak
+Main projects:
+\begin{itemize}
+\item QTS Data Centers customer portal
+\item Flooring warehouse kiosk prototype with RFID scanner
+\item In-house expense reporting tool
+\end{itemize}}
+\\
+%------------------------------------------------
+\entry
+{Aug '12--May '14}
+{Georgia Institute of Technology}
+{Atlanta, Georgia}
+{\emph{Head Teaching Assistant}
+\smallbreak
+Organized homework assignments and supplemental assessments for \textasciitilde200 students per semester in CS2110: Computer Organization and Programming. }
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2010--2014}
+{Bachelor of Science {\normalfont in Computer Science}}
+{Georgia Institute of Technology}
+{Specialization in Platforms and Information Internetworks}
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{references}
+
+%\begin{entrylist}
+%------------------------------------------------
+%\entry
+%{Georgia Tech}
+%{William Leahy (Retired)}
+%{}
+%{Lecturer, College of Computing \\Email: \href{mailto:bleahy@gatech.edu}{bleahy@gatech.edu} }
+%------------------------------------------------
+%\entry
+%{Sagepath}
+%{Justin Brown}
+%{}
+%{Lead Developer \\Email: \href{mailto:jbrown@sagepath.com}{jbrown@sagepath.com} }
+%\\
+%------------------------------------------------
+
+%\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
